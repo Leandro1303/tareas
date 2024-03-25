@@ -3,7 +3,6 @@ import '../hojas-de-estilo/TareaFormulario.css';
 import { v4 as uuidv4 } from 'uuid';
 
 function TareaFormulario(props) {
-
   const [input, setInput] = useState('');
 
   const manejarCambio = e => {
